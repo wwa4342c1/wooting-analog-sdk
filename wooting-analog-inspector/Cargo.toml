@@ -1,0 +1,20 @@
+[package]
+name = "wooting-analog-inspector"
+description = "A terminal inspector for live analog key values and intent states"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+publish = false
+rust-version.workspace = true
+
+[dependencies]
+wooting-analog-sdk = { path = "../wooting-analog-sdk" }
+crossterm = "0.28"
+ratatui = "0.29"
+
+[lints]
+workspace = true

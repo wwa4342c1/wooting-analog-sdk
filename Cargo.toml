@@ -1,6 +1,7 @@
 [workspace]
 default-members = ["wooting-analog-sdk"]
 members = [
+    "wooting-analog-inspector",
     "wooting-analog-virtual-control",
     "wooting-analog-sdk",
     "wooting-analog-sdk-updater",
